@@ -1,8 +1,6 @@
 db.produtos.deleteMany(
   {
-    curtidas: { 
-      $lt: 50,
-    },
+    curtidas: { $lt: 50 },
   },
 );
 
