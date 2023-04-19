@@ -21,7 +21,8 @@ Colocando em prática os aprendizados de MongoDB, com base nos dados do cardápi
 
 Esse projeto consiste em uma lista de desafios avaliativos para consolidar os conceitos relacionados ao banco de dados NoSQL, MongoDB.
 
-Nesse projeto, trabalhei a partir do banco de dados `commerce`, que contém dados do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.
+Nesse projeto, trabalhei a partir do banco de dados `commerce`, que contém informações do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.  
+Minha responsabilidade foi escrever as _queries_ necessárias para pesquisar e atualizar os dados para atender ao que era solicitado em cada requisito.
 
 ### Habilidades
 
@@ -66,11 +67,11 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
   git clone git@github.com:ligiabicalho/Commerce-mongoDB.git
   # Navegue até a pasta do repositório clonado
   cd Commerce-mongoDB
-  # Neste caso, nstalar as dependências é necessário apenas para correção de Lint.
+  # Neste caso, instalar as dependências é necessário apenas para correção de Lint.
   npm install
 ```
 
-### **Usando Docker**
+### **Usando o MongoDB com Docker**
 
 ```bash
   # No diretório raíz, crie um container com um volume apontando para a pasta do projeto
@@ -86,13 +87,12 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
 
 ## Requisitos do projeto
 
-Esse projeto consistiu em 32 desafios, onde para cada um tivemos que escrever uma ou mais _querys_ para alcançar o resultado requerido.  
+Esse projeto consistiu em 32 desafios/requisitos, onde para cada um tivemos que escrever uma ou mais _querys_ para pesquisar e/ou atualizar os dados e alcançar o resultado requerido.  
 Os commits foram nomeados com cada uma das solicitações.
 
 ## Status de desenvolvimento
 
 100% dos requisitos solicitados foram desenvolvidos.
-gi
 
 ## Desenvolvedora
 
@@ -105,6 +105,6 @@ gi
 ## Agradecimentos
 
 A Trybe e seus instrutures pelos ensinamentos, elaboração do desafio e mentorias técnicas.
-Aos colegas de turma pelas valiosas discussões, devidamente referenciadas nos comentários do código.
+Aos colegas de turma pelas valiosas discussões, importantes para o aprimoramento das habilidades.
 
 <p align="right"><a href="#sparkles-projeto-commerce---mongodb-hamburger">:top:</a></p>
