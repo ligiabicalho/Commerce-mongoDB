@@ -6,6 +6,7 @@ Colocando em prática os aprendizados de MongoDB, com base nos dados do cardápi
 
 - [Sobre o projeto](#sobre-o-projeto)
   - [Contexto](#man_technologist-contexto)
+  - [Habilidades](#habilidades)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
   - [Banco de dados](#banco-de-dados)
 - [Instalação](#instalando-localmente)
@@ -21,6 +22,23 @@ Colocando em prática os aprendizados de MongoDB, com base nos dados do cardápi
 Esse projeto consiste em uma lista de desafios avaliativos para consolidar os conceitos relacionados ao banco de dados NoSQL, MongoDB.
 
 Nesse projeto, trabalhei a partir do banco de dados `commerce`, que contém dados do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.
+
+### Habilidades
+
+- Pesquisar documentos no banco de dados usando o find();
+- Especificar os dados retornados do documento com _projection_.
+- Filtrar resultado das pesquisas, usando _operadores lógicos_ e de _comparação_:
+  - `$and, $or, $not, $nor, $exists.`
+  - `$lt, $lte, $gt, $gte, $eq, $ne, $in, $nin.`
+- Limitar, pular, ordenar os documentos retornados, com os métodos:
+  - `limit(), skip(), sort()`;
+- Utilizar operadores de consulta em array:
+  - ` $all, $elementMatch, $size, $expr, $regex, $mod`.
+- Fazer atualizações nos documentos utilizando os operadores:
+  - `$set, $mul, $inc, $min, $max e $currentDate`.
+- Renomear campos com `$rename` e remover com `$unset`.
+- Incorporar dados aos documentos através de arrays utilizando os operadores:
+  - `$pop, $pull, $push, $addToSet, $each, $slice e $sort`.
 
 ## Tecnologias utilizadas
 
@@ -68,10 +86,8 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
 
 ## Requisitos do projeto
 
-Esse projeto consistiu em 32 desafios, onde para cada um tivemos que escrever uma ou mais _querys_ para alcançar o resultado requerido.
+Esse projeto consistiu em 32 desafios, onde para cada um tivemos que escrever uma ou mais _querys_ para alcançar o resultado requerido.  
 Os commits foram nomeados com cada uma das solicitações.
-
-<p align="right"><a href="#sparkles-projeto-commerce---mongodb-hamburger">:top:</a></p>
 
 ## Status de desenvolvimento
 
