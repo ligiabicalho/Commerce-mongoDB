@@ -14,19 +14,15 @@ Colocando em prática os aprendizados de MongoDB, com base nos dados do cardápi
 - [Desenvolvedora](#desenvolvedora)
 - [Agradecimentos](#agradecimentos)
 
-<br>
+## Sobre o projeto
 
-# Sobre o projeto
-
-## :man_technologist: Contexto
+### :man_technologist: Contexto
 
 Esse projeto consiste em uma lista de desafios avaliativos para consolidar os conceitos relacionados ao banco de dados NoSQL, MongoDB.
 
 Nesse projeto, trabalhei a partir do banco de dados `commerce`, que contém dados do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.
 
-<p align="right"><a href="#sparkles-projeto-commerce-MongoDB-hamburger">:top:</a></p>
-
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Docker
 
@@ -34,7 +30,7 @@ Nesse projeto, trabalhei a partir do banco de dados `commerce`, que contém dado
 
 - MongoDB
 
-<p align="right"><a href="#sparkles-projeto-commerce-MongoDB-hamburger">:top:</a></p>
+<p align="right"><a href="#sparkles-projeto-commerce---mongodb-hamburger">:top:</a></p>
 
 ## Instalação
 
@@ -52,7 +48,7 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
   git clone git@github.com:ligiabicalho/Commerce-mongoDB.git
   # Navegue até a pasta do repositório clonado
   cd Commerce-mongoDB
-  # Instalar as dependências é necessário apenas para correção de Lint.
+  # Neste caso, nstalar as dependências é necessário apenas para correção de Lint.
   npm install
 ```
 
@@ -68,24 +64,19 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
   cd app
 ```
 
-1. :  
-   `npm run compose:up`
-2. Em seguida abra o terminal interativo do container:  
-   `docker exec -it app_backend sh`
-3. Instale as dependências dentro do container:  
-   `npm install`
-
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">:top:</a></p>
 
 ## Requisitos do projeto
 
-> _Clique na seta para ver a lista de requisitos que recebemos para desenvolver durante o processo avaliativo._
+Esse projeto consistiu em 32 desafios, onde para cada um tivemos que escrever uma ou mais _querys_ para alcançar o resultado requerido.
+Os commits foram nomeados com cada uma das solicitações.
 
-<p align="right"><a href="#sparkles-projeto-commerce-MongoDB-hamburger">:top:</a></p>
+<p align="right"><a href="#sparkles-projeto-commerce---mongodb-hamburger">:top:</a></p>
 
 ## Status de desenvolvimento
 
 100% dos requisitos solicitados foram desenvolvidos.
+gi
 
 ## Desenvolvedora
 
@@ -100,4 +91,4 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
 A Trybe e seus instrutures pelos ensinamentos, elaboração do desafio e mentorias técnicas.
 Aos colegas de turma pelas valiosas discussões, devidamente referenciadas nos comentários do código.
 
-<p align="right"><a href="#sparkles-projeto-commerce-MongoDB-hamburger">:top:</a></p>
+<p align="right"><a href="#sparkles-projeto-commerce---mongodb-hamburger">:top:</a></p>
