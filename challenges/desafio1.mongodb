@@ -1,2 +1,2 @@
-use(commerce);
+use('commerce');
 db.produtos.countDocuments();
