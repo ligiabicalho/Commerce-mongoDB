@@ -9,8 +9,8 @@ Colocando em prática os aprendizados de MongoDB, com base em informações do c
   - [Habilidades](#habilidades)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
   - [Banco de dados](#banco-de-dados)
-- [Instalação](#instalando-localmente)
-  - [Docker](#docker)
+- [Instalação](#instalação)
+  - [MongoDB com Docker](#whale-usando-o-mongodb-com-docker)
 - [Status de desenvolvimento](#status-de-desenvolvimento)
 - [Desenvolvedora](#desenvolvedora)
 - [Agradecimentos](#agradecimentos)
@@ -63,7 +63,7 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
 > - Docker-compose versão >=1.29.2
 
 ```bash
-  # Clone o repositório
+  # Faça o Fork e depois clone o repositório
   git clone git@github.com:ligiabicalho/Commerce-mongoDB.git
   # Navegue até a pasta do repositório clonado
   cd Commerce-mongoDB
@@ -71,7 +71,7 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
   npm install
 ```
 
-### **Usando o MongoDB com Docker**
+### :whale: **Usando o MongoDB com Docker**
 
 ```bash
   # No diretório raíz, crie um container com um volume apontando para a pasta do projeto
@@ -81,6 +81,24 @@ Caso deseje rodar o projeto na sua máquina, siga as orientações:
   docker exec -it mongodb bash
   # No terminal do container, acesse o diretório /app mapeado no volume conforme o passo 1.
   cd app
+```
+
+> Os próximos
+
+#### :leaves: **Populando o banco de dados**
+
+```bash
+# Dentro da pasta /app do container:
+mongorestore --maintainInsertionOrder --db commerce assets/produtos
+```
+
+#### :recycle: **Restaurando o banco de dados**
+
+```bash
+# Dentro da pasta /app do container, dropar o banco:
+mongo commerce --quiet --eval 'db.dropDatabase()'
+# Popular novamente:
+mongorestore --maintainInsertionOrder --db commerce assets/produtos
 ```
 
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">:top:</a></p>
