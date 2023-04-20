@@ -1,6 +1,6 @@
 # :sparkles: Projeto Commerce - MongoDB :hamburger:
 
-Colocando em prática os aprendizados de MongoDB, com base nos dados do cardápio do McDonald's.
+Colocando em prática os aprendizados de MongoDB, com base em informações do cardápio do McDonald's.
 
 ## Sumário
 
